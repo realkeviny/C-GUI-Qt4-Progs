@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FindFileDialog(Absolute Location)", "FindFileDialog(Absolute Location)\FindFileDialog(Absolute Location).vcxproj", "{A28999D5-D8E6-42BB-AEE8-FA9B645F3590}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FindFileDialog(Artificial Management)", "FindFileDialog(Artificial Management)\FindFileDialog(Artificial Management).vcxproj", "{737488BE-2C97-4DFF-91C9-C9896561389B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FindFileDialog(Layout Manager)", "FindFileDialog(Layout Manager)\FindFileDialog(Layout Manager).vcxproj", "{EA68D762-FD10-4882-BBB3-CD640A613902}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Preferences", "Preferences\Preferences.vcxproj", "{5F7DAE97-BD2F-47DC-95B7-671684D1424F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SplitterExample", "SplitterExample\SplitterExample.vcxproj", "{E3CBE36A-F747-4722-9E60-50F90B6A4A4D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MailClient", "MailClient\MailClient.vcxproj", "{DD886722-E0A7-437B-9463-0B70FEAB485C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Editor", "Editor\Editor.vcxproj", "{7D2DAA48-A3B0-4C8E-89BB-639CF01501F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A28999D5-D8E6-42BB-AEE8-FA9B645F3590}.Debug|x64.ActiveCfg = Debug|x64
+		{A28999D5-D8E6-42BB-AEE8-FA9B645F3590}.Debug|x64.Build.0 = Debug|x64
+		{A28999D5-D8E6-42BB-AEE8-FA9B645F3590}.Release|x64.ActiveCfg = Release|x64
+		{A28999D5-D8E6-42BB-AEE8-FA9B645F3590}.Release|x64.Build.0 = Release|x64
+		{737488BE-2C97-4DFF-91C9-C9896561389B}.Debug|x64.ActiveCfg = Debug|x64
+		{737488BE-2C97-4DFF-91C9-C9896561389B}.Debug|x64.Build.0 = Debug|x64
+		{737488BE-2C97-4DFF-91C9-C9896561389B}.Release|x64.ActiveCfg = Release|x64
+		{737488BE-2C97-4DFF-91C9-C9896561389B}.Release|x64.Build.0 = Release|x64
+		{EA68D762-FD10-4882-BBB3-CD640A613902}.Debug|x64.ActiveCfg = Debug|x64
+		{EA68D762-FD10-4882-BBB3-CD640A613902}.Debug|x64.Build.0 = Debug|x64
+		{EA68D762-FD10-4882-BBB3-CD640A613902}.Release|x64.ActiveCfg = Release|x64
+		{EA68D762-FD10-4882-BBB3-CD640A613902}.Release|x64.Build.0 = Release|x64
+		{5F7DAE97-BD2F-47DC-95B7-671684D1424F}.Debug|x64.ActiveCfg = Debug|x64
+		{5F7DAE97-BD2F-47DC-95B7-671684D1424F}.Debug|x64.Build.0 = Debug|x64
+		{5F7DAE97-BD2F-47DC-95B7-671684D1424F}.Release|x64.ActiveCfg = Release|x64
+		{5F7DAE97-BD2F-47DC-95B7-671684D1424F}.Release|x64.Build.0 = Release|x64
+		{E3CBE36A-F747-4722-9E60-50F90B6A4A4D}.Debug|x64.ActiveCfg = Debug|x64
+		{E3CBE36A-F747-4722-9E60-50F90B6A4A4D}.Debug|x64.Build.0 = Debug|x64
+		{E3CBE36A-F747-4722-9E60-50F90B6A4A4D}.Release|x64.ActiveCfg = Release|x64
+		{E3CBE36A-F747-4722-9E60-50F90B6A4A4D}.Release|x64.Build.0 = Release|x64
+		{DD886722-E0A7-437B-9463-0B70FEAB485C}.Debug|x64.ActiveCfg = Debug|x64
+		{DD886722-E0A7-437B-9463-0B70FEAB485C}.Debug|x64.Build.0 = Debug|x64
+		{DD886722-E0A7-437B-9463-0B70FEAB485C}.Release|x64.ActiveCfg = Release|x64
+		{DD886722-E0A7-437B-9463-0B70FEAB485C}.Release|x64.Build.0 = Release|x64
+		{7D2DAA48-A3B0-4C8E-89BB-639CF01501F9}.Debug|x64.ActiveCfg = Debug|x64
+		{7D2DAA48-A3B0-4C8E-89BB-639CF01501F9}.Debug|x64.Build.0 = Debug|x64
+		{7D2DAA48-A3B0-4C8E-89BB-639CF01501F9}.Release|x64.ActiveCfg = Release|x64
+		{7D2DAA48-A3B0-4C8E-89BB-639CF01501F9}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB06FFA7-6D87-44F0-89AD-6AD80A4F689F}
+	EndGlobalSection
+EndGlobal

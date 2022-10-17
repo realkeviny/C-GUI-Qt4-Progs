@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/Editor"/>
+    <qresource prefix="/image">
+        <file>images/Text Editor.png</file>
+        <file>images/Copy.png</file>
+        <file>images/Cut.png</file>
+        <file>images/New.png</file>
+        <file>images/Open.png</file>
+        <file>images/Paste.png</file>
+        <file>images/Save.png</file>
+    </qresource>
+</RCC>

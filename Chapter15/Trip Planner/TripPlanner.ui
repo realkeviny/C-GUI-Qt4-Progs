@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TripPlanner</class>
+ <widget class="QDialog" name="TripPlanner">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>520</width>
+    <height>555</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TripPlanner</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="tripInfoGroupBox">
+     <property name="title">
+      <string>Trip Information</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QLabel" name="fromLabel">
+        <property name="text">
+         <string>&amp;From:</string>
+        </property>
+        <property name="buddy">
+         <cstring>fromComboBox</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QComboBox" name="fromComboBox">
+        <item>
+         <property name="text">
+          <string>Alaska</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Albany</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Annapolis</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Atlanta</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Augusta</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Austin</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bismarck</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Chicago</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cincinati</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>HartFord</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Kansas City</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Madison</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Miami</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Osaka</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Nara-ken</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Yokohama</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Kawasaki</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sapporo</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fukuoka</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="toLabel">
+        <property name="text">
+         <string>&amp;To:</string>
+        </property>
+        <property name="buddy">
+         <cstring>toComboBox</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="toComboBox">
+        <item>
+         <property name="text">
+          <string>Alaska</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Albany</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Annapolis</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Atlanta</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Augusta</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Austin</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bismarck</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Chicago</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cincinati</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>HartFord</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Kansas City</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Madison</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Miami</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Osaka</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Nara-ken</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Yokohama</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Kawasaki</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sapporo</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fukuoka</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="dateLabel">
+        <property name="text">
+         <string>&amp;Date:</string>
+        </property>
+        <property name="buddy">
+         <cstring>dateEdit</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QDateEdit" name="dateEdit">
+        <property name="displayFormat">
+         <string>yyyy/MM/dd</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="timeLabel">
+        <property name="text">
+         <string>Appro&amp;ximate Time:</string>
+        </property>
+        <property name="buddy">
+         <cstring>timeEdit</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QDateTimeEdit" name="timeEdit">
+        <property name="displayFormat">
+         <string>hh:mm:ss</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0" colspan="2">
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QRadioButton" name="departureRadioButton">
+          <property name="text">
+           <string>Departure</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="arrivalRadioButton">
+          <property name="text">
+           <string>Arrival</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QTableWidget" name="tableWidget">
+     <column>
+      <property name="text">
+       <string>Date</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Departure</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Arrival</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Duration</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Changes</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Train Type</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="statusLabel">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Ready</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QProgressBar" name="progressBar">
+       <property name="maximum">
+        <number>0</number>
+       </property>
+       <property name="value">
+        <number>-1</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="1" rowspan="2">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Close</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>tableWidget</tabstop>
+  <tabstop>dateEdit</tabstop>
+  <tabstop>timeEdit</tabstop>
+  <tabstop>fromComboBox</tabstop>
+  <tabstop>toComboBox</tabstop>
+  <tabstop>departureRadioButton</tabstop>
+  <tabstop>arrivalRadioButton</tabstop>
+ </tabstops>
+ <resources>
+  <include location="TripPlanner.qrc"/>
+ </resources>
+ <connections/>
+</ui>

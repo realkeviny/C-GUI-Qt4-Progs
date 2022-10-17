@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/FlowChartSymbolPciker"/>
+    <qresource prefix="/images">
+        <file>icons/Circle.png</file>
+        <file>icons/Rectangle.png</file>
+        <file>icons/Trapezoid.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DragExample", "DragExample\DragExample.vcxproj", "{ECA1BF54-2C58-4362-95E5-248CF45F2DF9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectChooser", "ProjectChooser\ProjectChooser.vcxproj", "{600FFB9B-524F-4F0A-A2EA-FDFC5CDF7029}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyTableWidget", "MyTableWidget\MyTableWidget.vcxproj", "{52912836-6664-457A-9E8E-2BB64053CA88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECA1BF54-2C58-4362-95E5-248CF45F2DF9}.Debug|x64.ActiveCfg = Debug|x64
+		{ECA1BF54-2C58-4362-95E5-248CF45F2DF9}.Debug|x64.Build.0 = Debug|x64
+		{ECA1BF54-2C58-4362-95E5-248CF45F2DF9}.Release|x64.ActiveCfg = Release|x64
+		{ECA1BF54-2C58-4362-95E5-248CF45F2DF9}.Release|x64.Build.0 = Release|x64
+		{600FFB9B-524F-4F0A-A2EA-FDFC5CDF7029}.Debug|x64.ActiveCfg = Debug|x64
+		{600FFB9B-524F-4F0A-A2EA-FDFC5CDF7029}.Debug|x64.Build.0 = Debug|x64
+		{600FFB9B-524F-4F0A-A2EA-FDFC5CDF7029}.Release|x64.ActiveCfg = Release|x64
+		{600FFB9B-524F-4F0A-A2EA-FDFC5CDF7029}.Release|x64.Build.0 = Release|x64
+		{52912836-6664-457A-9E8E-2BB64053CA88}.Debug|x64.ActiveCfg = Debug|x64
+		{52912836-6664-457A-9E8E-2BB64053CA88}.Debug|x64.Build.0 = Debug|x64
+		{52912836-6664-457A-9E8E-2BB64053CA88}.Release|x64.ActiveCfg = Release|x64
+		{52912836-6664-457A-9E8E-2BB64053CA88}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C7C297C-9B25-44AF-839C-922CA83B9050}
+	EndGlobalSection
+EndGlobal

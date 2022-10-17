@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example1", "Example1\Example1.vcxproj", "{FA4240D6-547A-4731-9CD1-E4AF18DA348C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Scooters", "Scooters\Scooters.vcxproj", "{4A98CBF9-3066-450C-A75B-A77FC38D9571}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EmployeeForm", "EmployeeForm\EmployeeForm.vcxproj", "{D8BD5299-D0E4-41E9-BC55-195423F075AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA4240D6-547A-4731-9CD1-E4AF18DA348C}.Debug|x64.ActiveCfg = Debug|x64
+		{FA4240D6-547A-4731-9CD1-E4AF18DA348C}.Debug|x64.Build.0 = Debug|x64
+		{FA4240D6-547A-4731-9CD1-E4AF18DA348C}.Release|x64.ActiveCfg = Release|x64
+		{FA4240D6-547A-4731-9CD1-E4AF18DA348C}.Release|x64.Build.0 = Release|x64
+		{4A98CBF9-3066-450C-A75B-A77FC38D9571}.Debug|x64.ActiveCfg = Debug|x64
+		{4A98CBF9-3066-450C-A75B-A77FC38D9571}.Debug|x64.Build.0 = Debug|x64
+		{4A98CBF9-3066-450C-A75B-A77FC38D9571}.Release|x64.ActiveCfg = Release|x64
+		{4A98CBF9-3066-450C-A75B-A77FC38D9571}.Release|x64.Build.0 = Release|x64
+		{D8BD5299-D0E4-41E9-BC55-195423F075AB}.Debug|x64.ActiveCfg = Debug|x64
+		{D8BD5299-D0E4-41E9-BC55-195423F075AB}.Debug|x64.Build.0 = Debug|x64
+		{D8BD5299-D0E4-41E9-BC55-195423F075AB}.Release|x64.ActiveCfg = Release|x64
+		{D8BD5299-D0E4-41E9-BC55-195423F075AB}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D9B081C-4FB1-4AB0-800A-53EFE19053FB}
+	EndGlobalSection
+EndGlobal

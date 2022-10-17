@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlayerWindow", "PlayerWindow\PlayerWindow.vcxproj", "{69B52CF3-16C8-4699-A044-82EBDAF098E8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AddressBook", "AddressBook\AddressBook.vcxproj", "{CBFFF0A0-980A-4A41-B0F2-A1BB5351F9B8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tic-Tac-Toe", "Tic-Tac-Toe\Tic-Tac-Toe.vcxproj", "{D47211A8-FE87-4587-93D8-3342A57D3212}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69B52CF3-16C8-4699-A044-82EBDAF098E8}.Debug|x64.ActiveCfg = Debug|x64
+		{69B52CF3-16C8-4699-A044-82EBDAF098E8}.Debug|x64.Build.0 = Debug|x64
+		{69B52CF3-16C8-4699-A044-82EBDAF098E8}.Release|x64.ActiveCfg = Release|x64
+		{69B52CF3-16C8-4699-A044-82EBDAF098E8}.Release|x64.Build.0 = Release|x64
+		{CBFFF0A0-980A-4A41-B0F2-A1BB5351F9B8}.Debug|x64.ActiveCfg = Debug|x64
+		{CBFFF0A0-980A-4A41-B0F2-A1BB5351F9B8}.Debug|x64.Build.0 = Debug|x64
+		{CBFFF0A0-980A-4A41-B0F2-A1BB5351F9B8}.Release|x64.ActiveCfg = Release|x64
+		{CBFFF0A0-980A-4A41-B0F2-A1BB5351F9B8}.Release|x64.Build.0 = Release|x64
+		{D47211A8-FE87-4587-93D8-3342A57D3212}.Debug|x64.ActiveCfg = Debug|x64
+		{D47211A8-FE87-4587-93D8-3342A57D3212}.Debug|x64.Build.0 = Debug|x64
+		{D47211A8-FE87-4587-93D8-3342A57D3212}.Release|x64.ActiveCfg = Release|x64
+		{D47211A8-FE87-4587-93D8-3342A57D3212}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1136D88A-EB08-4D75-9E03-79DF9FEFC06F}
+	EndGlobalSection
+EndGlobal

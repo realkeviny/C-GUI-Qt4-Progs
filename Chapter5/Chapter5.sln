@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HexSpinBox", "HexSpinBox\HexSpinBox.vcxproj", "{10BF36DC-57D6-4121-9B17-ADFD84CEDAA1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IconEditor", "IconEditor\IconEditor.vcxproj", "{02514EEA-A800-4DA5-8D2A-06A470D9780C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IconEditorPlugin", "IconEditorPlugin\IconEditorPlugin.vcxproj", "{C2C94F6A-9E82-4AF7-8809-9747383EF701}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Plotter", "Plotter\Plotter.vcxproj", "{174C5BF8-240E-4039-A8BD-AE8F0D8D3A10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10BF36DC-57D6-4121-9B17-ADFD84CEDAA1}.Debug|x64.ActiveCfg = Debug|x64
+		{10BF36DC-57D6-4121-9B17-ADFD84CEDAA1}.Debug|x64.Build.0 = Debug|x64
+		{10BF36DC-57D6-4121-9B17-ADFD84CEDAA1}.Release|x64.ActiveCfg = Release|x64
+		{10BF36DC-57D6-4121-9B17-ADFD84CEDAA1}.Release|x64.Build.0 = Release|x64
+		{02514EEA-A800-4DA5-8D2A-06A470D9780C}.Debug|x64.ActiveCfg = Debug|x64
+		{02514EEA-A800-4DA5-8D2A-06A470D9780C}.Debug|x64.Build.0 = Debug|x64
+		{02514EEA-A800-4DA5-8D2A-06A470D9780C}.Release|x64.ActiveCfg = Release|x64
+		{02514EEA-A800-4DA5-8D2A-06A470D9780C}.Release|x64.Build.0 = Release|x64
+		{C2C94F6A-9E82-4AF7-8809-9747383EF701}.Debug|x64.ActiveCfg = Debug|x64
+		{C2C94F6A-9E82-4AF7-8809-9747383EF701}.Debug|x64.Build.0 = Debug|x64
+		{C2C94F6A-9E82-4AF7-8809-9747383EF701}.Release|x64.ActiveCfg = Release|x64
+		{C2C94F6A-9E82-4AF7-8809-9747383EF701}.Release|x64.Build.0 = Release|x64
+		{174C5BF8-240E-4039-A8BD-AE8F0D8D3A10}.Debug|x64.ActiveCfg = Debug|x64
+		{174C5BF8-240E-4039-A8BD-AE8F0D8D3A10}.Debug|x64.Build.0 = Debug|x64
+		{174C5BF8-240E-4039-A8BD-AE8F0D8D3A10}.Release|x64.ActiveCfg = Release|x64
+		{174C5BF8-240E-4039-A8BD-AE8F0D8D3A10}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {186BF5C0-8E4E-47FA-872B-19DCC8FEDEA3}
+	EndGlobalSection
+EndGlobal

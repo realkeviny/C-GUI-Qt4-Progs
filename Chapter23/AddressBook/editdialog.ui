@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EditDialog</class>
+ <widget class="QDialog" name="EditDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>343</width>
+    <height>196</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>EditDialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="contactLabel">
+     <property name="text">
+      <string>&amp;Contact</string>
+     </property>
+     <property name="buddy">
+      <cstring>contactLineEdit</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2" colspan="2">
+    <widget class="QLineEdit" name="contactLineEdit"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="addressLabel">
+     <property name="text">
+      <string>&amp;Address</string>
+     </property>
+     <property name="buddy">
+      <cstring>addressLineEdit</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2" colspan="2">
+    <widget class="QLineEdit" name="addressLineEdit"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="phoneNumberLabel">
+     <property name="text">
+      <string>Phone Number</string>
+     </property>
+     <property name="buddy">
+      <cstring>phoneNumberLineEdit</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2" colspan="2">
+    <widget class="QLineEdit" name="phoneNumberLineEdit"/>
+   </item>
+   <item row="4" column="3">
+    <widget class="QPushButton" name="cnacelButton">
+     <property name="text">
+      <string>Cancel</string>
+     </property>
+     <property name="default">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="2">
+    <widget class="QPushButton" name="okButton">
+     <property name="text">
+      <string>OK</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>43</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>contactLineEdit</tabstop>
+  <tabstop>addressLineEdit</tabstop>
+  <tabstop>phoneNumberLineEdit</tabstop>
+  <tabstop>okButton</tabstop>
+  <tabstop>cnacelButton</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>okButton</sender>
+   <signal>clicked()</signal>
+   <receiver>EditDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>191</x>
+     <y>163</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>94</x>
+     <y>129</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cnacelButton</sender>
+   <signal>clicked()</signal>
+   <receiver>EditDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>280</x>
+     <y>176</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>202</x>
+     <y>105</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

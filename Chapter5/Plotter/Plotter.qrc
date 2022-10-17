@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/Plotter">
+        <file>image/ZoomIn.png</file>
+        <file>image/ZoomOut.png</file>
+    </qresource>
+</RCC>

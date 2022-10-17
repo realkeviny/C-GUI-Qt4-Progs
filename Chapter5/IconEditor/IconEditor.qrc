@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/IconEditor">
+        <file>image/Song.png</file>
+    </qresource>
+</RCC>

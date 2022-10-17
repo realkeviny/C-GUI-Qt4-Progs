@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/Calculator"/>
+    <qresource prefix="/addons">
+        <file>scripts/cube.js</file>
+        <file>scripts/factorial.js</file>
+        <file>scripts/pi.js</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyWidget", "MyWidget\MyWidget.vcxproj", "{AC46418C-79F3-4059-A565-8C50262DC0C3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OvenTimer", "OvenTimer\OvenTimer.vcxproj", "{165F8534-E563-40D8-923F-0F9F8077FA1E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ViewPortWindow", "ViewPortWindow\ViewPortWindow.vcxproj", "{22CB680D-05FF-4672-A0DB-6F46CB3FC636}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Diagram", "Diagram\Diagram.vcxproj", "{FAFA3717-116A-4403-8A97-D6A02F6CA012}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CityScape", "CityScape\CityScape.vcxproj", "{2E98DBA7-2EA6-4005-A135-EF642FCB1D30}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PrintWindow", "PrintWindow\PrintWindow.vcxproj", "{81D256E3-5DAD-40E4-818E-0CF25A210090}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC46418C-79F3-4059-A565-8C50262DC0C3}.Debug|x64.ActiveCfg = Debug|x64
+		{AC46418C-79F3-4059-A565-8C50262DC0C3}.Debug|x64.Build.0 = Debug|x64
+		{AC46418C-79F3-4059-A565-8C50262DC0C3}.Release|x64.ActiveCfg = Release|x64
+		{AC46418C-79F3-4059-A565-8C50262DC0C3}.Release|x64.Build.0 = Release|x64
+		{165F8534-E563-40D8-923F-0F9F8077FA1E}.Debug|x64.ActiveCfg = Debug|x64
+		{165F8534-E563-40D8-923F-0F9F8077FA1E}.Debug|x64.Build.0 = Debug|x64
+		{165F8534-E563-40D8-923F-0F9F8077FA1E}.Release|x64.ActiveCfg = Release|x64
+		{165F8534-E563-40D8-923F-0F9F8077FA1E}.Release|x64.Build.0 = Release|x64
+		{22CB680D-05FF-4672-A0DB-6F46CB3FC636}.Debug|x64.ActiveCfg = Debug|x64
+		{22CB680D-05FF-4672-A0DB-6F46CB3FC636}.Debug|x64.Build.0 = Debug|x64
+		{22CB680D-05FF-4672-A0DB-6F46CB3FC636}.Release|x64.ActiveCfg = Release|x64
+		{22CB680D-05FF-4672-A0DB-6F46CB3FC636}.Release|x64.Build.0 = Release|x64
+		{FAFA3717-116A-4403-8A97-D6A02F6CA012}.Debug|x64.ActiveCfg = Debug|x64
+		{FAFA3717-116A-4403-8A97-D6A02F6CA012}.Debug|x64.Build.0 = Debug|x64
+		{FAFA3717-116A-4403-8A97-D6A02F6CA012}.Release|x64.ActiveCfg = Release|x64
+		{FAFA3717-116A-4403-8A97-D6A02F6CA012}.Release|x64.Build.0 = Release|x64
+		{2E98DBA7-2EA6-4005-A135-EF642FCB1D30}.Debug|x64.ActiveCfg = Debug|x64
+		{2E98DBA7-2EA6-4005-A135-EF642FCB1D30}.Debug|x64.Build.0 = Debug|x64
+		{2E98DBA7-2EA6-4005-A135-EF642FCB1D30}.Release|x64.ActiveCfg = Release|x64
+		{2E98DBA7-2EA6-4005-A135-EF642FCB1D30}.Release|x64.Build.0 = Release|x64
+		{81D256E3-5DAD-40E4-818E-0CF25A210090}.Debug|x64.ActiveCfg = Debug|x64
+		{81D256E3-5DAD-40E4-818E-0CF25A210090}.Debug|x64.Build.0 = Debug|x64
+		{81D256E3-5DAD-40E4-818E-0CF25A210090}.Release|x64.ActiveCfg = Release|x64
+		{81D256E3-5DAD-40E4-818E-0CF25A210090}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68D4DDC3-5659-460A-A090-708216A97DCB}
+	EndGlobalSection
+EndGlobal

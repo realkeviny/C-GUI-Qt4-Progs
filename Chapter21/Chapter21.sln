@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CursorPlugin", "CursorPlugin\CursorPlugin.vcxproj", "{3A4A40E4-7923-44D4-A1C6-147A90F848DE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextArtDialog", "TextArtDialog\TextArtDialog.vcxproj", "{89024ACF-B4AA-4A56-A525-11F09A66BA2C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BasicEffectsPlugin", "BasicEffectsPlugin\BasicEffectsPlugin.vcxproj", "{3913B543-E3C9-42E1-A9E1-72F01E2CF4EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A4A40E4-7923-44D4-A1C6-147A90F848DE}.Debug|x64.ActiveCfg = Debug|x64
+		{3A4A40E4-7923-44D4-A1C6-147A90F848DE}.Debug|x64.Build.0 = Debug|x64
+		{3A4A40E4-7923-44D4-A1C6-147A90F848DE}.Release|x64.ActiveCfg = Release|x64
+		{3A4A40E4-7923-44D4-A1C6-147A90F848DE}.Release|x64.Build.0 = Release|x64
+		{89024ACF-B4AA-4A56-A525-11F09A66BA2C}.Debug|x64.ActiveCfg = Debug|x64
+		{89024ACF-B4AA-4A56-A525-11F09A66BA2C}.Debug|x64.Build.0 = Debug|x64
+		{89024ACF-B4AA-4A56-A525-11F09A66BA2C}.Release|x64.ActiveCfg = Release|x64
+		{89024ACF-B4AA-4A56-A525-11F09A66BA2C}.Release|x64.Build.0 = Release|x64
+		{3913B543-E3C9-42E1-A9E1-72F01E2CF4EF}.Debug|x64.ActiveCfg = Debug|x64
+		{3913B543-E3C9-42E1-A9E1-72F01E2CF4EF}.Debug|x64.Build.0 = Debug|x64
+		{3913B543-E3C9-42E1-A9E1-72F01E2CF4EF}.Release|x64.ActiveCfg = Release|x64
+		{3913B543-E3C9-42E1-A9E1-72F01E2CF4EF}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58F2EC01-0D9F-47EB-B800-460F5E3517C3}
+	EndGlobalSection
+EndGlobal

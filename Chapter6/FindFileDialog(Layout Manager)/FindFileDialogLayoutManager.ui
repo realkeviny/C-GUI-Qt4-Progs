@@ -1,0 +1,25 @@
+<UI version="4.0" >
+ <class>FindFileDialogLayoutManagerClass</class>
+ <widget class="QDialog" name="FindFileDialogLayoutManagerClass" >
+  <property name="objectName" >
+   <string notr="true">FindFileDialogLayoutManagerClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>FindFileDialogLayoutManager</string>
+  </property>$centralwidget$
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="FindFileDialogLayoutManager.qrc"/>
+ </resources>
+ <connections/>
+</UI>
